@@ -1,0 +1,240 @@
+Abkhaz (ab) | abk_Cyrl
+Acehnese (ace) | ace_Latn
+Acholi (ach) | ach_Latn
+Afar (aa) | aar_Latn
+Afrikaans (af) | afr_Latn
+Albanian (sq) | sqi_Latn
+Alur (alz) | alz_Latn
+Amharic (am) | amh_Ethi
+Arabic (ar) | ara_Arab
+Armenian (hy) | hye_Armn
+Assamese (as) | asm_Beng
+Avar (av) | ava_Cyrl
+Awadhi (awa) | awa_Deva
+Aymara (ay) | aym_Latn
+Azerbaijani (az) | aze_Latn
+Balinese (ban) | ban_Latn
+Baluchi (bal) | bal_Arab
+Bambara (bm) | bam_Latn
+Baoulé (bci) | bci_Latn
+Bashkir (ba) | bak_Cyrl
+Basque (eu) | eus_Latn
+Batak Karo (btx) | btx_Latn
+Batak Simalungun (bts) | bts_Batk
+Batak Toba (bbc) | bbc_Batk
+Belarusian (be) | bel_Cyrl
+Bemba (bem) | bem_Latn
+Bengali (bn) | ben_Beng
+Betawi (bew) | bew_Latn
+Bhojpuri (bho) | bho_Deva
+Bikol (bik) | bik_Latn
+Bosnian (bs) | bos_Latn
+Breton (br) | bre_Latn
+Bulgarian (bg) | bul_Cyrl
+Buryat (bua) | bua_Cyrl
+Cantonese (yue) | yue_Hant
+Catalan (ca) | cat_Latn
+Cebuano (ceb) | ceb_Latn
+Chamorro (ch) | cha_Latn
+Chechen (ce) | che_Cyrl
+Chichewa (ny) | nya_Latn
+Chinese (Simplified) (zh) | zho_Hans
+Chinese (Traditional) (zh-TW) | zho_Hant
+Chuukese (chk) | chk_Latn
+Chuvash (cv) | chv_Cyrl
+Corsican (co) | cos_Latn
+Crimean Tatar (crh) | crh_Latn
+Croatian (hr) | hrv_Latn
+Czech (cs) | ces_Latn
+Danish (da) | dan_Latn
+Dinka (din) | din_Latn
+Divehi (dv) | div_Thaa
+Dogri (doi) | doi_Deva
+Dombe (dov) | dov_Latn
+Dutch (nl) | nld_Latn
+Dyula (dyu) | dyu_Latn
+Dzongkha (dz) | dzo_Tibt
+English (en) | eng_Latn
+Esperanto (eo) | epo_Latn
+Estonian (et) | est_Latn
+Ewe (ee) | ewe_Latn
+Faroese (fo) | fao_Latn
+Fijian (fj) | fij_Latn
+Filipino (tl) | fil_Latn
+Finnish (fi) | fin_Latn
+Fon (fon) | fon_Latn
+French (fr) | fra_Latn
+Frisian (fy) | fry_Latn
+Friulian (fur) | fur_Latn
+Fulfulde (ff) | ful_Latn
+Ga (gaa) | gaa_Latn
+Galician (gl) | glg_Latn
+Ganda (lg) | lug_Latn
+Georgian (ka) | kat_Geor
+German (de) | deu_Latn
+Greek (el) | ell_Grek
+Guarani (gn) | grn_Latn
+Gujarati (gu) | guj_Gujr
+Haitian Creole (ht) | hat_Latn
+Hakha Chin (cnh) | cnh_Latn
+Hausa (ha) | hau_Latn
+Hawaiian (haw) | haw_Latn
+Hiligaynon (hil) | hil_Latn
+Hindi (hi) | hin_Deva
+Hmong (hmn) | hmn_Latn
+Hungarian (hu) | hun_Latn
+Hunsrik (hrx) | hrx_Latn
+Iban (iba) | iba_Latn
+Icelandic (is) | isl_Latn
+Igbo (ig) | ibo_Latn
+Iloko (ilo) | ilo_Latn
+Indonesian (id) | ind_Latn
+Irish Gaelic (ga) | gle_Latn
+Italian (it) | ita_Latn
+Jamaican Patois (jam) | jam_Latn
+Japanese (ja) | jpn_Jpan
+Jingpo (kac) | kac_Latn
+Kalaallisut (kl) | kal_Latn
+Kannada (kn) | kan_Knda
+Kanuri (kr) | kau_Latn
+Kapampangan (pam) | pam_Latn
+Kazakh (kk) | kaz_Cyrl
+Khasi (kha) | kha_Latn
+Khmer (km) | khm_Khmr
+Kiga (cgg) | cgg_Latn
+Kikongo (kg) | kon_Latn
+Kinyarwanda (rw) | kin_Latn
+Kituba (ktu) | ktu_Latn
+Kokborok (trp) | trp_Latn
+Komi (kv) | kom_Cyrl
+Konkani (gom) | gom_Latn
+Korean (ko) | kor_Hang
+Krio (kri) | kri_Latn
+Kurdish (Kurmanji) (ku) | kur_Latn
+Kurdish (Sorani) (ckb) | ckb_Arab
+Kyrgyz (ky) | kir_Cyrl
+Lao (lo) | lao_Laoo
+Latgalian (ltg) | ltg_Latn
+Latin (la) | lat_Latn
+Latvian (lv) | lav_Latn
+Ligurian (lij) | lij_Latn
+Limburgan (li) | lim_Latn
+Lingala (ln) | lin_Latn
+Lithuanian (lt) | lit_Latn
+Lombard (lmo) | lmo_Latn
+Luo (luo) | luo_Latn
+Luxembourgish (lb) | ltz_Latn
+Macedonian (mk) | mkd_Cyrl
+Madurese (mad) | mad_Latn
+Maithili (mai) | mai_Deva
+Makassar (mak) | mak_Latn
+Malagasy (mg) | mlg_Latn
+Malay (ms) | msa_Latn
+Malay (Jawi) (ms-Arab) | msa_Arab
+Malayalam (ml) | mal_Mlym
+Maltese (mt) | mlt_Latn
+Mam (mam) | mam_Latn
+Manx (gv) | glv_Latn
+Maori (mi) | mri_Latn
+Marathi (mr) | mar_Deva
+Marshallese (mh) | mah_Latn
+Marwadi (mwr) | mwr_Deva
+Mauritian Creole (mfe) | mfe_Latn
+Meadow Mari (chm) | chm_Cyrl
+Meiteilon (Manipuri) (mni-Mtei) | mni_Beng
+Minang (min) | min_Latn
+Mizo (lus) | lus_Latn
+Mongolian (mn) | mon_Cyrl
+Myanmar (Burmese) (my) | mya_Mymr
+Nahuatl (Eastern Huasteca) (nhe) | nhe_Latn
+Ndau (ndc-ZW) | ndc_Latn
+Ndebele (South) (nr) | nbl_Latn
+Nepalbhasa (Newari) (new) | new_Deva
+Nepali (ne) | nep_Deva
+NKo (bm-Nkoo) | bam_Nkoo
+Northern Sotho (nso) | nso_Latn
+Norwegian (no) | nor_Latn
+Nuer (nus) | nus_Latn
+Occitan (oc) | oci_Latn
+Odia (Oriya) (or) | ori_Orya
+Oromo (om) | orm_Latn
+Ossetian (os) | oss_Cyrl
+Pangasinan (pag) | pag_Latn
+Papiamento (pap) | pap_Latn
+Pashto (ps) | pus_Arab
+Persian (fa) | fas_Arab
+Polish (pl) | pol_Latn
+Portuguese (pt) | por_Latn
+Punjabi (pa) | pan_Guru
+Punjabi (Shahmukhi) (pa-Arab) | pan_Arab
+Q'eqchi' (kek) | kek_Latn
+Quechua (qu) | que_Latn
+Romani (rom) | rom_Latn
+Romanian (ro) | ron_Latn
+Rundi (rn) | run_Latn
+Russian (ru) | rus_Cyrl
+Sami (North) (se) | sme_Latn
+Samoan (sm) | smo_Latn
+Sango (sg) | sag_Latn
+Sanskrit (sa) | san_Deva
+Scots Gaelic (gd) | gla_Latn
+Serbian (sr) | srp_Cyrl
+Sesotho (st) | sot_Latn
+Seychellois Creole (crs) | crs_Latn
+Shan (shn) | shn_Mymr
+Shona (sn) | sna_Latn
+Sicilian (scn) | scn_Latn
+Silesian (szl) | szl_Latn
+Sindhi (sd) | snd_Arab
+Sinhala (si) | sin_Sinh
+Slovak (sk) | slk_Latn
+Slovenian (sl) | slv_Latn
+Somali (so) | som_Latn
+Spanish (es) | spa_Latn
+Sundanese (su) | sun_Latn
+Susu (sus) | sus_Latn
+Swahili (sw) | swa_Latn
+Swati (ss) | ssw_Latn
+Swedish (sv) | swe_Latn
+Tahitian (ty) | tah_Latn
+Tajik (tg) | tgk_Cyrl
+Tamazight (ber-Latn) | ber_Latn
+Tamazight (Tifinagh) (ber) | ber_Tfng
+Tamil (ta) | tam_Taml
+Tatar (tt) | tat_Cyrl
+Telugu (te) | tel_Telu
+Tetum (tet) | tet_Latn
+Thai (th) | tha_Thai
+Tibetan (bo) | bod_Tibt
+Tigrinya (ti) | tir_Ethi
+Tiv (tiv) | tiv_Latn
+Tok Pisin (tpi) | tpi_Latn
+Tongan (to) | ton_Latn
+Tsonga (ts) | tso_Latn
+Tswana (tn) | tsn_Latn
+Tulu (tcy) | tcy_Knda
+Tumbuka (tum) | tum_Latn
+Turkish (tr) | tur_Latn
+Turkmen (tk) | tuk_Latn
+Tuvan (tyv) | tyv_Cyrl
+Twi (ak) | aka_Latn
+Udmurt (udm) | udm_Cyrl
+Ukrainian (uk) | ukr_Cyrl
+Urdu (ur) | urd_Arab
+Uyghur (ug) | uig_Arab
+Uzbek (uz) | uzb_Latn
+Venda (ve) | ven_Latn
+Venetian (vec) | vec_Latn
+Vietnamese (vi) | vie_Latn
+Waray (war) | war_Latn
+Welsh (cy) | cym_Latn
+Wolof (wo) | wol_Latn
+Xhosa (xh) | xho_Latn
+Yakut (sah) | sah_Cyrl
+Yiddish (yi) | yid_Hebr
+Yoruba (yo) | yor_Latn
+Yucatec Maya (yua) | yua_Latn
+Zapotec (zap) | zap_Latn
+Zulu (zu) | zul_Latn
+Hebrew (he) | heb_Hebr
+Javanese (jv) | jav_Latn
