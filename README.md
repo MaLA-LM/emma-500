@@ -1,18 +1,24 @@
 # EMMA-500: Enhancing Massively Multilingual Adaptation of Large Language Models
 
+## News
+[2025.06] We release EMMA-500 Llama 3/3.1 models and MaLA bilingual corpus in 2,500+ language pairs. 🌐[website](http://mala-lm.github.io/emma-500-gen2.html)  
+[2025.05] We release MaLA OPUS bilingual corpus (2410), aka, parallel corpus, in 16,000+ language pairs. 🤗[MaLA-LM/mala-opus-dedup-2410](https://huggingface.co/datasets/MaLA-LM/mala-opus-dedup-2410)   
+[2024.09] We release the EMMA-500 Llama 2 model and MaLA monolingual corpus in 939 languages. 🌐[website](http://mala-lm.github.io/emma-500.html)  
+
 
 ## Overview
 
-**EMMA-500: Enhancing Massively Multilingual Adaptation** is a cutting-edge multilingual large language model designed to improve performance, particularly in low-resource languages, through continual pre-training. Built upon the Llama 2 7B architecture, **EMMA-500** leverages the **MaLA Corpus**—a diverse multilingual dataset covering over 500 languages—to push the boundaries of language modeling.
+**EMMA-500: Enhancing Massively Multilingual Adaptation** is a cutting-edge multilingual large language model designed to improve performance, particularly in low-resource languages, through continual pre-training. 
+Built upon the Llama 2 7B, Llama 3(.1) 8B architectures, **EMMA-500** series leverage the **MaLA Corpus**—a diverse multilingual dataset covering over 500 languages—to push the boundaries of language modeling.
 
-Key strengths of **EMMA-500** include enhanced commonsense reasoning, machine translation, open-ended generation, and natural language inference, making it highly effective for multilingual tasks across both high- and low-resource languages. Our carefully curated data mix ensures that the model maintains robust performance even on specialized tasks like code generation.
+Key strengths of **EMMA-500** include enhanced commonsense reasoning, machine translation, open-ended generation, and natural language inference, making it highly effective for multilingual tasks across both high- and low-resource languages. Our carefully curated data mix ensures that the model maintains robust performance.
 
 This repository contains the model, dataset access, benchmarks for evaluation, detailed evaluation results, and evaluation codes.
 
 ## Key Features
 
-- **Continual Pre-training:** Extends Llama 2 7B for improved language adaptation across 546 languages.
-- **MaLA Corpus:** MaLA Corpus contains over 74 billion tokens from a variety of domains.
+- **Continual Pre-training:** Extends Llama 2 7B and Llama 3(.1) for improved language adaptation across 546 languages.
+- **MaLA Corpus:** MaLA Corpus offers various subsets such as MaLA monolingual corpus,MaLA bilingual translation corpus and MaLA code reasoning corpus. The monolingual and bilingual ones contains over 74 and 426 billion tokens from a variety of domains.
 - **Multitask Benchmarking:** Tested on a wide range of benchmarks in commonsense reasoning, machine translation, text classification, and natural language inference across low- and high-resource languages.
 
 ## Model and Dataset Access
@@ -23,18 +29,44 @@ This repository contains the model, dataset access, benchmarks for evaluation, d
 
 ## Dataset: MaLA Corpus
 
-The **MaLA Corpus** (Massive Language Adaptation) is a multilingual dataset that facilitates continual pre-training, featuring:
+The **MaLA Corpus** (Massive Language Adaptation) is a multilingual dataset that facilitates continual pre-training, featuring various subsets.
 
+### MaLA monolingual corpus
 - **939 languages** with over 74 billion tokens in total.
 - **546 languages** containing over 100k tokens each.
 - Cleaned, deduplicated versions for higher quality training.
-- A wide variety of data sources, including code, books, and instruction data.
+- 🤗[MaLA-LM/mala-monolingual-integration](https://huggingface.co/datasets/MaLA-LM/mala-monolingual-integration)
+- 🤗[MaLA-LM/mala-monolingual-filter](https://huggingface.co/datasets/MaLA-LM/mala-monolingual-filter)
+- 🤗[MaLA-LM/mala-monolingual-dedup](https://huggingface.co/datasets/MaLA-LM/mala-monolingual-dedup)
+- 🤗[MaLA-LM/mala-monolingual-split](https://huggingface.co/datasets/MaLA-LM/mala-monolingual-split)
+
+### MaLA bilingual corpus
+- **2,507** language pairs containing over 426 billion tokens in total.
+- Cleaned and deduplicated version for higher quality training
+- 🤗[MaLA-LM/mala-opus-dedup-2410](https://huggingface.co/datasets/MaLA-LM/mala-opus-dedup-2410) 
+
+### MaLA code reasoning corpus
+- Coding and reasoning data for enhancing model's reasoning capacity
+- 🤗[MaLA-LM/mala-code-reasoning](https://huggingface.co/datasets/MaLA-LM/mala-code-reasoning)
+- 🤗[MaLA-LM/mala-code-reasoning-v2](https://huggingface.co/datasets/MaLA-LM/mala-code-reasoning-v2)
 
 Explore more details and download the corpus on [Huggingface](https://huggingface.co/collections/MaLA-LM/mala-corpus-66e05127641a51de34d39529).
 
+
+## Models: EMMA-500
+
+### EMMA-500 Llama 2
+- 🤗[MaLA-LM/emma-500-llama2-7b](https://huggingface.co/MaLA-LM/emma-500-llama2-7b): CPT model trained on monolingual data mix in 500+ languages   
+
+### EMMA-500 Llama 3
+- 🤗[MaLA-LM/emma-500-llama3-8b-mono](https://huggingface.co/MaLA-LM/emma-500-llama3-8b-mono): CPT model trained on monolingual data mix in 500+ languages   
+- 🤗[MaLA-LM/emma-500-llama3-8b-bi](https://huggingface.co/MaLA-LM/emma-500-llama3-8b-bi): CPT model trained on monolingual data mix in 500+ languages + bilingual translation data in 2,500+ language pairs
+- 🤗[MaLA-LM/emma-500-llama3.1-8b-mono](https://huggingface.co/MaLA-LM/emma-500-llama3.1-8b-mono): CPT model trained on monolingual data mix in 500+ languages
+- 🤗[MaLA-LM/emma-500-llama3.1-8b-bi](https://huggingface.co/MaLA-LM/emma-500-llama3.1-8b-bi): CPT model trained on monolingual data mix in 500+ languages + bilingual translation data in 2,500+ language pairs
+
 ## PolyWrite Benchmark
 
-We also introduce **PolyWrite**, a multilingual benchmark for evaluating open-ended generation tasks in 240 languages. This benchmark includes:
+We also introduce 🤗[**PolyWrite**](https://huggingface.co/datasets/MaLA-LM/PolyWrite), a multilingual benchmark for evaluating open-ended generation tasks in 240 languages. This benchmark includes:
 
 - **31 diverse writing tasks**, such as storytelling and email writing.
 - **155 prompts** translated into multiple languages using back-translation to ensure quality.
@@ -44,14 +76,15 @@ The PolyWrite dataset is accessible on [Huggingface](https://huggingface.co/data
 
 ## Evaluation Results
 
-Our **EMMA-500** model was rigorously evaluated against a range of Llama 2-based models (4.5B to 13B parameters) and showed:
+Our **EMMA-500** model was rigorously evaluated against a range of models (4.5B to 13B parameters) and showed:
 
 - **Lowest negative log-likelihood** among all models in intrinsic evaluation.
 - **Significant gains** in commonsense reasoning, machine translation, and open-ended generation.
 - **Outperformance** in text classification and natural language inference over all Llama 2-based models and other multilingual LLMs.
 - **Improved performance** in code generation and machine reading comprehension (MRC), though some challenges remain in MRC tasks.
 
-While **EMMA-500** performs exceptionally well in multilingual summarization and reasoning tasks, it faces challenges in low-resource languages with slightly higher Self-BLEU scores, indicating a need for further enhancements in output diversity.
+Detailed evaluation results can be found under [./evaluation_results](./evaluation_results)
+
 
 ## Usage
 
