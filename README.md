@@ -105,7 +105,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 ```
 
 ## Evaluation Codes
-Evaluation codes for open-ended generation, text classification, machine translation and summarization are avialable under [./evaluation](evaluation).
+Evaluation codes for open-ended generation, text classification, machine translation and summarization are available under [./evaluation](evaluation).
 For code tasks, we use a [VLLM-enabled evaluation harness package](https://github.com/iNeil77/vllm-code-harness). For other tasks, we use [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness).
 
 
