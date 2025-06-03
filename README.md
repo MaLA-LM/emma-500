@@ -112,7 +112,7 @@ For code tasks, we use a [VLLM-enabled evaluation harness package](https://githu
 ## Citation
 
 ```
-@article{ji2024emma2,
+@article{ji2025emma2,
       title={Massively Multilingual Adaptation of Large Language Models Using Bilingual Translation Data}, 
       author={Shaoxiong Ji and Zihao Li and Jaakko Paavola and Indraneil Paul and Hengyu Luo and Jörg Tiedemann},
       year={2025},
