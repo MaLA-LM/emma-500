@@ -112,6 +112,36 @@ For code tasks, we use a [VLLM-enabled evaluation harness package](https://githu
 ## Citation
 
 ```
+@inproceedings{ji2026mala,
+  title     = {MaLA: A Corpus and Data Mix for Massive Language Adaptation of Large Language Models},
+  author    = {Ji, Shaoxiong and Li, Zihao and Paavola, Jaakko and Lin, Peiqin and Chen, Pinzhen and O'Brien, Dayy{\'a}n and Luo, Hengyu and Sch{\"u}tze, Hinrich and Tiedemann, J{\"o}rg and Haddow, Barry},
+  booktitle = {Proceedings of Conference on Language Modeling (COLM 2026)},
+  year      = {2026},
+  url       = {https://www.olaresearch.org/MaLA/}
+}
+
+@inproceedings{ji-etal-2026-data,
+  title     = {Data-Centric Continual Pre-training for 500+ Languages: A New Bilingual Translation Corpus and Multilingual Models},
+  author    = {Ji, Shaoxiong  and
+               Li, Zihao  and
+               Paavola, Jaakko  and
+               Luo, Hengyu  and
+               Tiedemann, J{\"o}rg},
+  editor    = {Liakata, Maria  and
+               Moreira, Viviane P.  and
+               Zhang, Jiajun  and
+               Jurgens, David},
+  booktitle = {Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026},
+  month     = jul,
+  year      = {2026},
+  address   = {San Diego, California, United States},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2026.findings-acl.937/},
+  doi       = {10.18653/v1/2026.findings-acl.937},
+  pages     = {18776--18807},
+  isbn      = {979-8-89176-395-1}
+}
+
 @article{ji2025emma2,
       title={Massively Multilingual Adaptation of Large Language Models Using Bilingual Translation Data}, 
       author={Shaoxiong Ji and Zihao Li and Jaakko Paavola and Hengyu Luo and Jörg Tiedemann},
