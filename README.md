@@ -115,9 +115,9 @@ For code tasks, we use a [VLLM-enabled evaluation harness package](https://githu
 @inproceedings{ji2026mala,
   title     = {MaLA: A Corpus and Data Mix for Massive Language Adaptation of Large Language Models},
   author    = {Ji, Shaoxiong and Li, Zihao and Paavola, Jaakko and Lin, Peiqin and Chen, Pinzhen and O'Brien, Dayy{\'a}n and Luo, Hengyu and Sch{\"u}tze, Hinrich and Tiedemann, J{\"o}rg and Haddow, Barry},
-  booktitle = {Proceedings of Conference on Language Modeling (COLM 2026)},
+  booktitle = {Proceedings of the 2026 Conference on Language Modeling (COLM)},
   year      = {2026},
-  url       = {https://www.olaresearch.org/MaLA/}
+  url       = {https://openreview.net/forum?id=UdXxVM3VnE}
 }
 
 @inproceedings{ji-etal-2026-data,
